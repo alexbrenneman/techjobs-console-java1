@@ -60,8 +60,8 @@ public class TechJobs {
 
                 // What is their search term?
                 System.out.println("\nSearch term: ");
-                String searchTerm = in.nextLine();
-
+                String userSearchTerm = in.nextLine();
+                String searchTerm = userSearchTerm.toLowerCase();
                 if (searchField.equals("all")) {
                     System.out.println("Search all fields not yet implemented.");
                 } else {

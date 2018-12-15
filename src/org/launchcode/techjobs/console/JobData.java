@@ -96,7 +96,7 @@ public class JobData {
 
 
         for (HashMap<String, String> job : allJobs) {
-            Boolean containsTerm = false;
+            boolean containsTerm = false;
             for (Map.Entry<String, String> row : job.entrySet()) {
                 String original_value = row.getValue();
                 String value = original_value.toLowerCase();
